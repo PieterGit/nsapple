@@ -7,7 +7,9 @@
 //
 
 import UIKit
+#if !os(iOS)
 import WatchKit
+#endif
 
 class ViewController: UIViewController {
    
